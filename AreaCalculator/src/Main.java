@@ -13,10 +13,14 @@ import java.awt.geom.Area;
 public class Main {
     public static void main(String[] args) {
 
+        // Calculate area of circle
         double area = AreaCalculator.area(2.5);
+        // Print area onto screen
         System.out.println("The area of the circle is: " + area);
-        
+
+        // Calculate area of rectangle
         area = AreaCalculator.area(5, 6);
+        // Print area onto screen
         System.out.println("The area of the rectangle is: " + area);
 
 
