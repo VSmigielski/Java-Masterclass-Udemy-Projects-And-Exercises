@@ -27,7 +27,7 @@ public class FirstLastDigitSum {
             if (number <= 9) {
                 // Make it equal to the number
                 firstDigit = number;
-                // Get out of the codde block
+                // Get out of the code block
                 break;
             }
         }
