@@ -9,10 +9,14 @@ public class Main {
 
         PC thePC = new PC(theCase, monitor, motherboard);
 
-        thePC.getMonitor().drawPixelAt(1500, 1200, "red");
+//        Uses direct access with "public" modifier
+//        thePC.getMonitor().drawPixelAt(1500, 1200, "red");
+//
+//        thePC.getMotherboard().loadProgram("Windows 1.0");
+//
+//        thePC.getTheCase().pressPowerButton();
 
-        thePC.getMotherboard().loadProgram("Windows 1.0");
+        thePC.powerUp();
 
-        thePC.getTheCase().pressPowerButton();
     }
 }
