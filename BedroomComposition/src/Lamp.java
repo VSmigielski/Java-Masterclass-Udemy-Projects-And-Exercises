@@ -1,7 +1,7 @@
 public class Lamp {
     private String style;
     private boolean battery;
-    private int goldRating;
+    private int globRating;
 
     public Lamp(String style, boolean battery, int goldRating) {
         this.style = style;
@@ -21,7 +21,7 @@ public class Lamp {
         return battery;
     }
 
-    public int getGoldRating() {
-        return goldRating;
+    public int getGlobRating() {
+        return globRating;
     }
 }
