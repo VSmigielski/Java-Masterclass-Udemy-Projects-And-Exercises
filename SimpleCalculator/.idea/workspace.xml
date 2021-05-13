@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fef0107-6b93-40bd-865a-f4eff681708a" name="Default Changelist" comment="" />
+    <list default="true" id="7fef0107-6b93-40bd-865a-f4eff681708a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ConstructorChallenge/ConstructorChallenge.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAccountChallenge/out/production/BankAccountChallenge/BankAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BankAccountChallenge/out/production/BankAccountChallenge/BankAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAccountChallenge/out/production/BankAccountChallenge/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BankAccountChallenge/out/production/BankAccountChallenge/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAccountChallenge/src/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BankAccountChallenge/src/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankAccountChallenge/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BankAccountChallenge/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

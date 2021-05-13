@@ -17,6 +17,12 @@ public class BankAccount {
         this("56789", 2.50, "Default name", "Default address", "default phone");
     }
 
+    public BankAccount(String customerName, String email, String phoneNumber) {
+        this.customerName = customerName;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+    }
+
     public BankAccount(String accountNumber, double balance, String customerName, String email, String phoneNumber) {
         this.accountNumber = accountNumber;
         this.balance = balance;
