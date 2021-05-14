@@ -3,10 +3,10 @@ public class Lamp {
     private boolean battery;
     private int globRating;
 
-    public Lamp(String style, boolean battery, int goldRating) {
+    public Lamp(String style, boolean battery, int globRating) {
         this.style = style;
         this.battery = battery;
-        this.goldRating = goldRating;
+        this.globRating = globRating;
     }
 
     public void turnOn() {
