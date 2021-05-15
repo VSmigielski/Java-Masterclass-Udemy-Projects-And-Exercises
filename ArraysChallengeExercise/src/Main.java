@@ -10,8 +10,6 @@ public class Main {
 
         printArray(myIntegers);
 
-        copyArrayInteger(myIntegers);
-
         printArray(sortArray(copyArrayInteger(myIntegers)));
 
     }
@@ -60,10 +58,13 @@ public class Main {
 
     // Another way to handle this information without copying&sorting separately
     public static int[] sortIntegers(int[] array) {
-        int[] sortedArray = new int[array.length];
-        for (int i = 0; i < array.length; i++) {
-            sortedArray[i] = array[i];
-        }
+        // Built in way to copy array
+        int[] sortedArray = Arrays.copyOf(array, array.length);
+
+//        int[] sortedArray = new int[array.length];
+//        for (int i = 0; i < array.length; i++) {
+//            sortedArray[i] = array[i];
+//        }
 
         boolean flag = true;
         int temp;
